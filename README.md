@@ -14,4 +14,8 @@ After analysis of the application and the code, the process of opening a file an
 
 During the duration of opening a file to edit it and closing the file, **the attacker has access to plaintext documents**.
 
-The script in this repo is a **PoC for exfiltrating sensitive data encrypted by 7-zip** to an external attacker server. This is done in the  **post exploitation** phase.
+The powershell script in this repo is a **PoC for exfiltrating sensitive data encrypted by 7-zip** to an external attacker server. This is done in the  **post exploitation** phase.
+
+**Steps**
+- Add the batch file to the victim's Startup folder (C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup).
+- Add the powershell script in the preceding directory.

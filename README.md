@@ -19,6 +19,7 @@ During the duration of opening a file to edit it and closing the file, **the att
 The powershell script in this repo is a **PoC for exfiltrating sensitive data encrypted by 7-zip** to an external attacker server. This is done in the  **post exploitation** phase.
 
 **Steps**
+- Change the attacker's website in the script.
 - Add the batch file to the victim's Startup folder (C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup).
 - Add the powershell script in the preceding directory.
 

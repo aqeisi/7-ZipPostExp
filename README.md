@@ -21,3 +21,6 @@ The powershell script in this repo is a **PoC for exfiltrating sensitive data en
 **Steps**
 - Add the batch file to the victim's Startup folder (C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup).
 - Add the powershell script in the preceding directory.
+
+**To do**
+- Add counters so that sent files are not resent to the attacker multiple times, generating unnecessary traffic.

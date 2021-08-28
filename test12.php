@@ -8,7 +8,7 @@
 </form>
 <pre>
 <?php
-        system('cat /var/www/html/flag.txt');
+        echo system('cat /etc/passwd');
     
 ?>
 </pre>

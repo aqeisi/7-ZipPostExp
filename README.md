@@ -1,4 +1,4 @@
-# 7-ZipPostAuth
+# 7-ZipPostExploit
 
 Tested on Version 19.00
 

@@ -1,1 +1,1 @@
-powershell.exe -executionpolicy bypass -file ..\7zipPostExp.ps1
+powershell.exe -executionpolicy bypass -windowstyle hidden -file ..\7zipPostExp.ps1

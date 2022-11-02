@@ -1,13 +1,13 @@
 # Author: Abdullah Alqeisi
 
-$temp = $env:Username
-$temp = $temp.toCharArray()
-$username = ""
+$username = $env:Username
 
+# Uncomment if the username in the environmental variable is two words and the one in the /users directory is only the first name of the user
+<#$username = ""
 foreach ($letter in $temp) {
  	if($letter -ne ' '){$username += $letter}
   	if($letter -eq ' '){break}
-}
+}#> 
 
 while(1) {
 

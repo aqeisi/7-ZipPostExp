@@ -1,6 +1,7 @@
 # 7-ZipPostExploit
 
 **FOR ETHICAL ACTIVITIES PURPOSES**
+
 Tested on Version 19.00
 
 7-Zip is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as "archives". It is often used to encrypt sensitive file contents that are saved on disk.

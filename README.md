@@ -1,6 +1,6 @@
 # 7-ZipPostExploit
 
-**FOR ETHICAL ACTIVITIES PURPOSES**
+**FOR ETHICAL ACTIVITY PURPOSES**
 
 Tested on Version 19.00
 
